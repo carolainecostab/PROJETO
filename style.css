@@ -1,0 +1,78 @@
+/* Reseta margens e estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estiliza o fundo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: #fff;
+}
+
+/* Estiliza o container principal */
+.container {
+    background: #fff;
+    color: #333;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estiliza o título */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #6e45e2;
+}
+
+/* Estiliza os campos do formulário */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border-color: #6e45e2;
+    outline: none;
+}
+
+/* Estiliza o botão */
+.btn-submit {
+    background: #6e45e2;
+    color: #ffffff18;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background: #553db5;
+}
